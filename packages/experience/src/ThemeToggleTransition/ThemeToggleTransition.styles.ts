@@ -87,7 +87,7 @@ export const styles = `
 
 .soliq-theme-transition-overlay[data-target="light"] {
   background:
-    radial-gradient(circle at 50% 45%, rgba(255, 194, 116, 1), rgba(255, 244, 224, 0.92) 58%),
+    radial-gradient(circle at 50% 45%, rgb(255 239 219), rgba(255, 244, 224, 0.92) 58%),
     linear-gradient(145deg, rgba(255, 249, 236, 0.98), rgba(255, 224, 191, 0.9) 56%, rgba(255, 200, 154, 0.84));
 }
 
@@ -206,8 +206,8 @@ export const styles = `
 }
 
 .soliq-theme-transition-overlay__icon {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   color: #d8c1aa;
   display: block;
   object-fit: contain;
