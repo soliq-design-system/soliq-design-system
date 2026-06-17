@@ -29,9 +29,6 @@ importers:
       '@soliq/design-tokens':
         specifier: workspace:*
         version: link:../../packages/design-tokens
-      '@soliq/experience':
-        specifier: workspace:*
-        version: link:../../packages/experience
       '@soliq/ui':
         specifier: workspace:*
         version: link:../../packages/ui
@@ -41,6 +38,9 @@ importers:
       react-dom:
         specifier: ^19.0.0
         version: 19.2.7(react@19.2.7)
+      soliq-design-system:
+        specifier: workspace:*
+        version: link:../../packages/experience
 
   packages/design-tokens: {}
 

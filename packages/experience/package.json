@@ -1,6 +1,6 @@
 {
-  "name": "@soliq/experience",
-  "version": "1.0.3",
+  "name": "soliq-design-system",
+  "version": "1.0.4",
   "private": false,
   "main": "./dist/index.js",
   "module": "./dist/index.js",

@@ -37,7 +37,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build workspace dependencies
-        run: pnpm --filter @soliq/experience build
+        run: pnpm --filter soliq-design-system build
 
       - name: Build playground for Pages
         env:

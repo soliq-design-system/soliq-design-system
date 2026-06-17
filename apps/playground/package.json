@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@soliq/design-tokens": "workspace:*",
-    "@soliq/experience": "workspace:*",
+    "soliq-design-system": "workspace:*",
     "@soliq/ui": "workspace:*",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

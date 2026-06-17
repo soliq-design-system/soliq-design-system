@@ -7,6 +7,7 @@
     "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
+      "soliq-design-system": ["packages/experience/src/index.ts"],
       "@soliq/experience": ["packages/experience/src/index.ts"],
       "@soliq-design-system/experience": ["packages/experience/src/index.ts"]
     },

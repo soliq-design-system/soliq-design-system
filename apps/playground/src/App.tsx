@@ -1,5 +1,5 @@
 import { colors } from "@soliq/design-tokens";
-import { NotFound, SessionExpired, SoliqLoader, ThemeToggleTransition } from "@soliq/experience";
+import { NotFound, SessionExpired, SoliqLoader, ThemeToggleTransition } from "soliq-design-system";
 import { Button } from "@soliq/ui";
 
 const sectionStyle = {

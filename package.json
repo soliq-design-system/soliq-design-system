@@ -1,5 +1,5 @@
 {
-  "name": "soliq-design-system",
+  "name": "soliq-design-system-workspace",
   "private": true,
   "packageManager": "pnpm@9.0.0",
   "scripts": {
