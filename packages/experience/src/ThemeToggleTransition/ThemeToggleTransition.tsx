@@ -75,6 +75,7 @@ export function ThemeToggleTransition({
     setTargetTheme(nextTheme);
     setIsTransitioning(true);
     setIsClosing(false);
+    onChange?.(nextTheme);
 
     timersRef.current.push(
       window.setTimeout(() => {
@@ -87,7 +88,6 @@ export function ThemeToggleTransition({
         setTheme(nextTheme);
         setIsTransitioning(false);
         setIsClosing(false);
-        onChange?.(nextTheme);
       }, 1940)
     );
   };
