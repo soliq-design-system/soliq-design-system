@@ -40,7 +40,9 @@ jobs:
         run: pnpm --filter @soliq/experience build
 
       - name: Build playground for Pages
-        run: pnpm --filter @soliq/playground build -- --base "/${{ github.event.repository.name }}/"
+        env:
+          VITE_BASE_PATH: /${{ github.event.repository.name }}/
+        run: pnpm --filter @soliq/playground build
 
       - name: Enable SPA fallback
         run: cp apps/playground/dist/index.html apps/playground/dist/404.html
