@@ -76,6 +76,8 @@ export function App() {
         </div>
       </section>
 
+      <ThemeToggleTransition />
+
       <section style={sectionStyle}>
         <h2>Design Tokens</h2>
         <div className="swatches">

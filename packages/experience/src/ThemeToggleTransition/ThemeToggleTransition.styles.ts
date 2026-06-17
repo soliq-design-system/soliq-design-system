@@ -81,13 +81,13 @@ export const styles = `
 
 .soliq-theme-transition-overlay[data-target="dark"] {
   background:
-    radial-gradient(circle at 50% 46%, rgba(11, 48, 96, 0.28), rgba(2, 15, 37, 0.93) 64%),
+    radial-gradient(circle at 50% 46%, rgba(11, 48, 96, 1), rgba(2, 15, 37, 0.93) 64%),
     linear-gradient(145deg, rgba(3, 18, 41, 0.86), rgba(1, 7, 22, 0.96));
 }
 
 .soliq-theme-transition-overlay[data-target="light"] {
   background:
-    radial-gradient(circle at 50% 45%, rgba(255, 194, 116, 0.4), rgba(255, 244, 224, 0.92) 58%),
+    radial-gradient(circle at 50% 45%, rgba(255, 194, 116, 1), rgba(255, 244, 224, 0.92) 58%),
     linear-gradient(145deg, rgba(255, 249, 236, 0.98), rgba(255, 224, 191, 0.9) 56%, rgba(255, 200, 154, 0.84));
 }
 
