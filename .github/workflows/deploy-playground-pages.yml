@@ -36,6 +36,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Build workspace dependencies
+        run: pnpm --filter @soliq/experience build
+
       - name: Build playground for Pages
         run: pnpm --filter @soliq/playground build -- --base "/${{ github.event.repository.name }}/"
 
